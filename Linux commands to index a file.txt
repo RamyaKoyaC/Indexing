@@ -1,0 +1,11 @@
+cat <filename> 
+tr [A-Z] [a-z]
+tr -cs "a-z_" " " 
+tr " " "\n"
+sort
+uniq -c
+sort -nr
+
+Do all these piping each of them. and send it to another file using (> NewFile.txt)--> This creates a new output file. 
+
+
